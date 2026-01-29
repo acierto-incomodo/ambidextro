@@ -12,11 +12,10 @@ from PySide6 import QtCore, QtWidgets, QtGui
 
 # ---------------- CONFIG ------------------
 
-LAUNCHER_VERSION = "1.0.0"
+LAUNCHER_VERSION = "1.0.1"
 
 # Windows build is split into two parts
-BUILD_URL_WIN_PART1 = "https://github.com/acierto-incomodo/ambidextro/releases/latest/download/Parte1.zip"
-BUILD_URL_WIN_PART2 = "https://github.com/acierto-incomodo/ambidextro/releases/latest/download/Parte2.zip"
+BUILD_URL_WIN_PART1 = "https://github.com/acierto-incomodo/ambidextro/releases/latest/download/Build.zip"
 BUILD_URL_LINUX = "https://github.com/acierto-incomodo/ambidextro/releases/latest/download/Build.zip"
 VERSION_URL = "https://github.com/acierto-incomodo/ambidextro/releases/latest/download/Version.txt"
 RELEASE_NOTES_URL = "https://github.com/acierto-incomodo/ambidextro/releases/latest/download/ReleaseNotes.txt"
@@ -282,8 +281,7 @@ class LauncherWindow(QtWidgets.QWidget):
         try:
             if sys.platform.startswith("win"):
                 downloads = [
-                    (BUILD_URL_WIN_PART1, "Part1.zip"),
-                    (BUILD_URL_WIN_PART2, "Part2.zip"),
+                    (BUILD_URL_WIN_PART1, "Build.zip"),
                 ]
             else:
                 downloads = [
