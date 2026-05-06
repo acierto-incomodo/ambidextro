@@ -1,4 +1,5 @@
 ./Clear.ps1
+python -m PyInstaller --onefile --windowed --noconsole --icon=ambidextro.ico PlayGame.py
 cp main.py launcher_win.py
 python -m PyInstaller --onefile --windowed --noconsole --icon=ambidextro.ico launcher_win.py
 python -m PyInstaller --onefile --windowed --noconsole --icon=ambidextro.ico installer_updater.py

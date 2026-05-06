@@ -3,5 +3,5 @@ Cambios
 Launcher (v1.0.1):
 - NaN
 
-Juego (v1.0.0):
-- NaN
+Juego (v1.0.1):
+- Mejoras para los errores del videojuego.
