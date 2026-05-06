@@ -1,7 +1,7 @@
 Cambios
 
-Launcher (v1.0.1):
-- NaN
+Launcher (v1.0.2):
+- Actualizado el sistema de arranque del videojuego.
 
 Juego (v1.0.2):
 - Mejoras para los errores del videojuego.
